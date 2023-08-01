@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "vite-ssg build",
-    "dev": "vite --host",
+    "dev": "vite --port 8888 --host",
     "serve": "vite preview --port 8000 --host"
   },
   "dependencies": {

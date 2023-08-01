@@ -5,7 +5,7 @@ export const CHROME_PRINT_BOTTOM = 10;
 
 export const THEME_COLORS = [
   "#000000",
-  "#377bb5",
+  "#1F83DB",
   "#ca3832",
   "#ee8732",
   "#9c5bde",
@@ -13,32 +13,33 @@ export const THEME_COLORS = [
 ];
 
 export const EN_FONTS: Font[] = [
-  {
-    name: "Adobe Garamond Pro"
-  },
+  // {
+  //   name: "Adobe Garamond Pro"
+  // },
   {
     name: "CMU Sans Serif"
   },
   {
     name: "Minion Pro"
   },
-  {
-    name: "Tex Gyre Pagella"
-  },
-  {
-    name: "Times Newer Roman"
-  }
+  // {
+  //   name: "Tex Gyre Pagella"
+  // },
+  // {
+  //   name: "Times Newer Roman"
+  // }
 ];
 
 export const CJK_FONTS: Font[] = [
   {
+    name: "霞鹜文楷",
+    fontFamily: "LXGW WenKai"
+  },
+  {
     name: "华康宋体",
     fontFamily: "HKST"
   },
-  {
-    name: "霞鹜文楷",
-    fontFamily: "LXGW WenKai"
-  }
+  
 ];
 
 export const CJK_SUBSETS = [
@@ -63,17 +64,17 @@ export const CJK_FIRST = [
 ];
 
 export const IGNORE_FONTS = [
-  "Baloo 2",
-  "Baloo Bhai 2",
-  "Baloo Bhaijaan 2",
-  "Baloo Bhaina 2",
-  "Baloo Chettan 2",
-  "Baloo Da 2",
-  "Baloo Paaji 2",
-  "Baloo Tamma 2",
-  "Baloo Tammudu 2",
-  "Baloo Thambi 2",
-  "Brygada 1918",
+  // "Baloo 2",
+  // "Baloo Bhai 2",
+  // "Baloo Bhaijaan 2",
+  // "Baloo Bhaina 2",
+  // "Baloo Chettan 2",
+  // "Baloo Da 2",
+  // "Baloo Paaji 2",
+  // "Baloo Tamma 2",
+  // "Baloo Tammudu 2",
+  // "Baloo Thambi 2",
+  // "Brygada 1918",
   "Exo 2",
   "M PLUS 1",
   "M PLUS 1 Code",
@@ -86,6 +87,10 @@ export const IGNORE_FONTS = [
 ];
 
 export const PAPER = {
+  Long: {
+    h: 431 + 2,
+    w: 279
+  },
   A4: {
     h: 297 + 2,
     w: 210

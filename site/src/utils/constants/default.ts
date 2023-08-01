@@ -9,14 +9,14 @@ export const DEFAULT_STYLES = {
   paragraphSpace: 5,
   themeColor: "#377bb5",
   fontCJK: {
-    name: "华康宋体",
+    name: "思源黑体（简）",
     fontFamily: "HKST"
   },
   fontEN: {
-    name: "Minion Pro"
+    name: "Albert Sans"
   },
   fontSize: 15,
-  paper: "A4"
+  paper: "Long"
 } as ResumeStyles;
 
 export const DEFAULT_MD_CONTENT = `---
